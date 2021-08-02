@@ -1,6 +1,6 @@
 const clientConfig ={ 
     siteUrl: 'http://localhost:3000',
-    graphqlUrl:'http://localhost/wordpress/graphql'
+    graphqlUrl:'https://www.thelivablestudio.com/graphql'
 };
 
 module.exports = clientConfig;
