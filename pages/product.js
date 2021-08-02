@@ -51,12 +51,7 @@ Product.getInitialProps = async function( context ) {
             ... on SimpleProduct {
                 price
             }
-            ... on ExternalProduct {
-            price
-            }
-            ... on VariableProduct {
-            price
-            }
+
         }
     }`;
 
