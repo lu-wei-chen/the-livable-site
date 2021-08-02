@@ -1,0 +1,59 @@
+.product-container {
+	display: flex;
+	flex-flow: wrap;
+	padding: 24px;
+}
+
+.product-container img {
+	max-width: 310px;
+}
+
+.react-shop-single {
+	display: flex;
+	justify-content: center;
+	margin-top: 30px
+}
+
+.react-shop-single__product {
+	max-width: 600px;
+}
+
+/**
+ * Cart Icon
+ */
+
+.the-livable-cart-wrap {
+	cursor: pointer;
+	padding-right: 16px;
+}
+
+.the-livable-cart-price {
+	color: #fff;
+}
+
+.the-livable-cart-icon-container {
+	position: relative;
+}
+
+.the-livable-cart-icon {
+	font-size: 20px;
+}
+
+.the-livable-cart-count {
+	top: -13px;
+	left: 12px;
+	padding-left: 5px;
+	padding-right: 5px;
+	line-height: 16px;
+	color: rgb(33, 83, 131);
+	min-height: 16px;
+	font-weight: 700;
+	border-radius: 50%;
+	background-color: #1b4b5e;
+	position: absolute;
+
+}
+
+.the-livable-view-cart-btn {
+	margin-left: 10px;
+}
