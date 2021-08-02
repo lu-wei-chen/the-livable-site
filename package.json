@@ -2,9 +2,8 @@
   "name": "react-shop",
   "version": "1.0.0",
   "description": "",
-  "main": "server.js",
   "scripts": {
-    "dev": "next dev",
+    "dev": "vercel dev",
     "build": "npm run build-fragment && next build",
     "start": "next start",
     "build-fragment": "node schemaQuery.js"
