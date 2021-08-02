@@ -1,0 +1,20 @@
+{
+    "authors": [
+        {
+            "name": "Lu",
+            "homepage": "http://localhost:3000",
+            "role": "Developer"
+        }
+    ],
+    "type": "wordpress-plugin",
+    "repositories": [
+        {
+          "type": "github",
+          "url": "https://github.com/wp-graphql/wp-graphql"
+        },
+        {
+          "type": "github",
+          "url": "https://github.com/wp-graphql/wp-graphql-woocommerce"
+        }
+      ]
+}
